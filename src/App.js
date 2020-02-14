@@ -1,7 +1,9 @@
 import React from "react";
 import "./styles.css";
+import data from "../data/2items.json";
 
 export default function App() {
+  console.log({ data });
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
